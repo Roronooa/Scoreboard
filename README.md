@@ -1,1 +1,1 @@
-Unfinished project built following Scrimba's JS course.
+Unfinished project built following Scrimba's course.
