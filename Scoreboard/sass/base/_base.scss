@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+}
+
+.container {
+  background-color: rgba(27, 36, 74, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 57.5rem;
+  height: 38.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

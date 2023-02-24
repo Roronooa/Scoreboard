@@ -1,0 +1,18 @@
+{
+  "name": "second",
+  "version": "1.0.0",
+  "description": "Basketball scoreboard project",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass sass/main.scss css/index.css --no-source-map -w",
+    "live": "live-server --browser=opera",
+    "start": "npm-run-all --parallel watch live"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.58.3"
+  }
+}
